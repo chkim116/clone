@@ -146,6 +146,7 @@ span:nth-child(6) {
 .searchbar {
     width: 60%;
 }
+}
 
 @media screen and (max-width: 475px) {
 
@@ -159,6 +160,7 @@ span:nth-child(6) {
 
 .searchbar__input::placeholder {
    font-size:small;
+}
 }
 
 .navbar {
@@ -177,12 +179,12 @@ span:nth-child(6) {
 .searchbar {
      width:80.8%;
 }
-    
+}
 
 
 @media screen and (max-width: 320px) {
         
 .searchbar {
      width:90.8%;
- }
- 
+}
+}
