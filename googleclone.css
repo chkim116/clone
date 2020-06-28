@@ -12,13 +12,31 @@
     justify-content: flex-end;
     align-items: center;
     font-family: 'Apple SD Gothic Neo',arial,sans-serif;
+    font-size: 13px;
+    color:rgba(0,0,0,0.8);
+    margin-right: 20px;
 }
 
-.navbar__meun {
+.navbar__meun1 {
     margin-top: 6px;
     margin-right: 12px;
-    font-size: 13px;
-    color:rgba(0,0,0,0.87);
+}
+
+.navbar__meun2 {
+    margin-top: 4px;
+    padding-right: 8px;
+    margin-right: 6px;
+}
+
+.navbar__meun3 i {
+    font-size: 18px;
+    color: rgba(0,0,0,0.5);
+    margin-top: 6px;
+    margin-right: 12px;
+}
+
+.navbar__menu4 {
+
 }
  .title {
     display: block;
