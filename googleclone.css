@@ -82,18 +82,18 @@ span:nth-child(6) {
     color:#ea4335;
 }
 
- .search {
-     display:flex;
-     justify-content:center;
-    }
+.search {
+    display:flex;
+    justify-content:center;
+}
 
- .searchbar {
+.searchbar {
     width:561px;
     height:44px;
     border-radius:20px;
     padding:5px 8px 0px 14px;
     box-shadow:rgba(32, 33, 36, 0.28) 0px 1px 6px 0px;
-}
+}   
 
 .searchbar__search {
     display:flex;
@@ -135,71 +135,69 @@ span:nth-child(6) {
 
 
 @media all and (max-width: 419px) {
-    .title {
-        padding-top: 100px;
-        font-size: 3.5rem;
-    }
-    .searchbar__keyboard {
-        display: none;
-    }
-    
-    .searchbar {
-        width:90.8%;
-    }
-    
-    .searchbar__input::placeholder {
-       font-size:small;
-    }
-    
-    .navbar {
-        margin: 0px;
-    }
-    
-    .navbar__menu1,
-    .navbar__menu2,
-    .navbar__menu3,
-    .navbar__menu4 {
-        padding-right: 10px;
-    }
+.title {
+    padding-top: 100px;
+    font-size: 3.5rem;
+}
+.searchbar__keyboard {
+    display: none;
+}
+
+.searchbar {
+    width:90.8%;
+}
+
+.searchbar__input::placeholder {
+    font-size:small;
+}
+
+.navbar {
+    margin: 0px;
+}
+
+.navbar__menu1,
+.navbar__menu2,
+.navbar__menu3,
+.navbar__menu4 {
+    padding-right: 10px;
+}
 }
     
 @media all and (min-width: 576px) and (max-width: 768px) {
-    .title {
-        font-size: 4rem;
-    }
-    
-    .searchbar {
-        width: 60%;
-    }
-    }
-   
+.title {
+    font-size: 4rem;
+}
+
+.searchbar {
+    width: 60%;
+}
+}
 
 @media all and (min-width: 420px) and (max-width: 575px) {
-    .title {
-        padding-top: 100px;
-        font-size: 3.5rem;
-    }
-    .searchbar__keyboard {
-        display: none;
-    }
-    
-    .searchbar {
-        width:80.8%;
-    }
-    
-    .searchbar__input::placeholder {
-       font-size:small;
-    }
-    
-    .navbar {
-        margin: 0px;
-    }
-    
-    .navbar__menu1,
-    .navbar__menu2,
-    .navbar__menu3,
-    .navbar__menu4 {
-        padding-right: 10px;
-    }
+.title {
+    padding-top: 100px;
+    font-size: 3.5rem;
+}
+.searchbar__keyboard {
+    display: none;
+}
+
+.searchbar {
+    width:80.8%;
+}
+
+.searchbar__input::placeholder {
+    font-size:small;
+}
+
+.navbar {
+    margin: 0px;
+}
+
+.navbar__menu1,
+.navbar__menu2,
+.navbar__menu3,
+.navbar__menu4 {
+    padding-right: 10px;
 }
 }
