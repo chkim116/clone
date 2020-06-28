@@ -4,21 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HELLO!</title>
-    <link rel="stylesheets" href="googleclone.css">
+    <link rel="stylesheet" href="googleclone.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 </head>
-<body> 
+<body>
+    <nav class="navbar">
+        <div class="navbar__meun">Gmail</div>
+        <div class="navbar__meun">이미지</div>
+        <div class="navbar__meun"><i class="fas fa-th"></i></div>
+        <div class="navbar__meun">사진</div>
+
+    </nav> 
 <div class="container">
         <div class="title">
-             <a href="https://blog.naver.com/dudnqnfqlc" target="_blank" class="link"> <span>H</span><span>E</span><span>L</span><span>L</span><span>O</span><span>!</span>
+             <a href="https://blog.naver.com/dudnqnfqlc" target="_blank" class="title__link"> <span>H</span><span>E</span><span>L</span><span>L</span><span>O</span><span>!</span>
              </a>
             </div>
+    <div class="search">
+        <form action="https://www.google.com/search" method="get" class="searchbar"> 
+            <div class="searchbar__search">
+                <div class="searchbar__btn">
+                    <i class="fa fa-search searchbar__image"></i>
+                </div>
+                
+                <input class="searchbar__input" name="q" type="text" placeholder=" Google 검색 또는 URL 입력">
+                
+                <div class="searchbar__keyboard">
+                    <i class="fas fa-keyboard icon__keyboard"></i>
+                </div>
 
-        <form action="https://www.google.com/search" method="get" class="seacrh"> 
-            <input name="q" class="searchbar" type="text" placeholder=" Google 검색 또는 URL 입력">
+                <div class="searchbar__microphoen">
+                    <i class="fas fa-microphone"></i>
+                </div>
+            </div>
         </form>
-
-
     </div>
+</div>
+    </div>
+    <script src="https://kit.fontawesome.com/66fd1dbf65.js" crossorigin="anonymous">
+    </script>
 </body>
 </html>
