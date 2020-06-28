@@ -10,6 +10,7 @@
     font-size:13px;
     color:rgba(0,0,0,0.8);
     margin-right:20px;
+    padding:4px;
 }
 
 .navbar__menu1 {
@@ -18,7 +19,7 @@
 }
 
 .navbar__menu2 {
-    margin-top:1px;
+    margin-top:3px;
     padding-right:18px;
 }
 
@@ -49,14 +50,20 @@
 }
 
  .title {
-    display:block;
-    text-align:center;
+    text-align: center;
     font-size:5rem;
-    margin-top:98px;
+    height: 238px;
+    width: 1200px;
     font-family:'Open Sans', sans-serif;
+    padding-top: 88px;
+    margin-top: 10px;
+ }
+
+.title__a {
+    text-decoration: none;
 }
 
- span:nth-child(1) {
+span:nth-child(1) {
     color:#4285f4;
 }
 span:nth-child(2) {
@@ -75,21 +82,17 @@ span:nth-child(6) {
     color:#ea4335;
 }
 
- .title__link {
-     text-decoration:none;
- }
-
  .search {
-     margin-top: 20px;
      display:flex;
      justify-content:center;
- }
+    }
+
  .searchbar {
-    width:582px;
+    width:561px;
     height:44px;
     border-radius:20px;
-    border:1px solid rgba(146, 146, 146, .6);
     padding:5px 8px 0px 14px;
+    box-shadow:rgba(32, 33, 36, 0.28) 0px 1px 6px 0px;
 }
 
 .searchbar__search {
@@ -110,14 +113,20 @@ span:nth-child(6) {
     margin:0;
 }
 
+.searchbar__input:focus::placeholder {
+    color:transparent;
+}
+
 .searchbar__keyboard {
     padding:5px;
     margin-left: 10px;
+    cursor:pointer;
 }
 
 .searchbar__microphoen {
     padding:6px;
     margin-left:10px;
+    cursor:pointer;
 }
 
 .searchbar__microphoen i {
