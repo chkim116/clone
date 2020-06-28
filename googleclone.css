@@ -100,7 +100,7 @@ span:nth-child(6) {
 }
 
 .searchbar__btn {
-    margin-top:4px;
+    margin-top:6px;
     padding-right:7px ;
     color:rgb(117,117,117);
 }
@@ -134,19 +134,7 @@ span:nth-child(6) {
 }
 
 
-
-    
-@media all and (min-width: 576px) and (max-width: 768px) {
-    .title {
-        font-size: 4rem;
-    }
-    
-    .searchbar {
-        width: 60%;
-    }
-    }
-   
-@media all and (max-width: 375px) {
+@media all and (max-width: 419px) {
     .title {
         padding-top: 100px;
         font-size: 3.5rem;
@@ -174,4 +162,44 @@ span:nth-child(6) {
         padding-right: 10px;
     }
 }
+    
+@media all and (min-width: 576px) and (max-width: 768px) {
+    .title {
+        font-size: 4rem;
+    }
+    
+    .searchbar {
+        width: 60%;
+    }
+    }
+   
 
+@media all and (min-width: 420px) and (max-width: 575px) {
+    .title {
+        padding-top: 100px;
+        font-size: 3.5rem;
+    }
+    .searchbar__keyboard {
+        display: none;
+    }
+    
+    .searchbar {
+        width:80.8%;
+    }
+    
+    .searchbar__input::placeholder {
+       font-size:small;
+    }
+    
+    .navbar {
+        margin: 0px;
+    }
+    
+    .navbar__menu1,
+    .navbar__menu2,
+    .navbar__menu3,
+    .navbar__menu4 {
+        padding-right: 10px;
+    }
+}
+}
