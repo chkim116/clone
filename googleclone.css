@@ -7,82 +7,84 @@
 }
 
 .navbar {
-    display: flex;
-    padding: 8px;
-    justify-content: flex-end;
-    align-items: center;
-    font-family: 'Apple SD Gothic Neo',arial,sans-serif;
-    font-size: 13px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    font-family:'Apple SD Gothic Neo',arial,sans-serif;
+    font-size:13px;
     color:rgba(0,0,0,0.8);
-    margin-right: 20px;
+    margin-right:20px;
 }
 
 .navbar__menu1 {
-    margin-top: 6px;
-    padding-right: 12px;
+    margin-top:4px;
+    padding-right:18px;
 }
 
 .navbar__menu2 {
-    margin-top: 4px;
-    padding-right: 12px;
-}
-
-.navbar__menu3 i {
-    font-size: 18px;
-    color: rgba(0,0,0,0.5);
+    margin-top:1px;
+    padding-right:18px;
 }
 
 .navbar__menu3 {
-    margin-top: 6px;
-    padding-right: 12px;
+    margin-top:3px;
+    padding-right:18px;
 }
 
-.navbar__menu4 {
-    margin-top: 3px;
-    margin-right: 10px;
+.navbar__menu3 i {
+    font-size:18px;
+    color:rgba(0,0,0,0.5);
+}
 
+.navbar__icon {
+    margin-top:5px;
+    width:32px;
+    height:32px;
+    border-radius:50%;
+    border:1px solid white;
 }
 
  .title {
-    display: block;
-    text-align: center;
-    font-size: 6.5rem;
-    margin-top: 130px;
-    font-family: 'Open Sans', sans-serif;
+    display:block;
+    text-align:center;
+    font-size:5rem;
+    margin-top:98px;
+    font-family:'Open Sans', sans-serif;
  }
 
  .title__link {
-     text-decoration: none;
+     text-decoration:none;
  }
 
  .search {
-     display: flex;
-     justify-content: center;
+     margin-top: 20px;
+     display:flex;
+     justify-content:center;
  }
  .searchbar {
-    width: 582px;
-    height: 44px;
-    border-radius: 20px;
-    border: 1px solid rgba(146, 146, 146, .6);
+    width:582px;
+    height:44px;
+    border-radius:20px;
+    border:1px solid rgba(146, 146, 146, .6);
     padding:5px 8px 0px 14px;
 }
 
 .searchbar__search {
-    display: flex;
+    display:flex;
 }
 
 .searchbar__input {
-    width: 447px;
-    height: 34px;
-    border: none;
-    outline-width: 0;
-    margin: 0;
+    width:447px;
+    height:34px;
+    border:none;
+    outline-width:0;
+    margin:0;
 }
 
 .searchbar__btn {
     margin-top:4px;
-    padding-right:8px ;
-    color: rgb(117,117,117);
+    padding-right:7px ;
+    color:rgb(117,117,117);
 }
 
 .searchbar__keyboard {
@@ -92,17 +94,13 @@
 
 .searchbar__microphoen {
     padding:6px;
-    margin-left: 10px;
+    margin-left:10px;
 }
 
 .searchbar__microphoen i {
-    font-size: 20px;
+    font-size:20px;
 }
 
-.link:link, .link:visited {
-    text-decoration: none;
-    color:black;
-}
 span:nth-child(1) {
     color:#4285f4;
 }
@@ -123,8 +121,9 @@ span:nth-child(6) {
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-    width:100%;
+
+.container {
+    width: 100%;
 }
 
  .title {
@@ -132,5 +131,7 @@ span:nth-child(6) {
  }
 
 .searchbar {
-    width: 80%;
+    width: 45.8%;
+}
+
 }
