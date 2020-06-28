@@ -49,10 +49,10 @@
 }
 
  .title {
+     display: block;
     text-align: center;
     font-size:5rem;
     height: 238px;
-    width: 1200px;
     font-family:'Open Sans', sans-serif;
     padding-top: 88px;
     margin-top: 10px;
@@ -139,12 +139,50 @@ span:nth-child(6) {
     width: 100%;
 }
 
- .title {
+.title {
     font-size: 4rem;
- }
+}
 
 .searchbar {
-    width: 45.8%;
+    width: 60%;
 }
 
+@media screen and (max-width: 475px) {
+
+.searchbar__keyboard {
+    display: none;
+    }
+
+.searchbar {
+    width:70.8%;
 }
+
+.searchbar__input::placeholder {
+   font-size:small;
+}
+
+.navbar {
+    margin: 0px;
+}
+
+.navbar__menu1,
+.navbar__menu2,
+.navbar__menu3,
+.navbar__menu4 {
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 375px) {
+
+.searchbar {
+     width:80.8%;
+}
+    
+
+
+@media screen and (max-width: 320px) {
+        
+.searchbar {
+     width:90.8%;
+ }
+ 
