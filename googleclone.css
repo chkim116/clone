@@ -6,11 +6,10 @@
     display:flex;
     justify-content:flex-end;
     align-items:center;
-    font-family:'Apple SD Gothic Neo',arial,sans-serif;
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
     font-size:13px;
     color:rgba(0,0,0,0.8);
     margin-right:20px;
-    padding:4px;
 }
 
 .navbar__menu1 {
