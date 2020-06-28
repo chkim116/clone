@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* 넷바 */
 .navbar {
     display:flex;
     justify-content:flex-end;
@@ -44,6 +45,7 @@
     cursor:pointer;
 }
 
+/* 타이틀 */
 .container {
     width:100%;
     margin: 0 auto;
@@ -82,6 +84,7 @@ span:nth-child(6) {
     color:#ea4335;
 }
 
+/* 검색창 */
 .search {
     display:flex;
     justify-content:center;
@@ -132,6 +135,8 @@ span:nth-child(6) {
     font-size:20px;
 }
 
+
+/* 미디어쿼리 */
 
 @media all and (max-width: 419px) {
 .title {
@@ -196,11 +201,11 @@ span:nth-child(6) {
 
     
 @media all and (min-width: 576px) and (max-width: 768px) {
-    .title {
-        font-size: 4rem;
-    }
-    
-    .searchbar {
-        width: 60%;
-    }
-    }
+.title {
+    font-size: 4rem;
+}
+
+.searchbar {
+    width: 60%;
+}
+}
