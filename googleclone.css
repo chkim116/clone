@@ -164,7 +164,6 @@ span:nth-child(6) {
 .searchbar__input::placeholder {
    font-size:small;
 }
-}
 
 .navbar {
     margin: 0px;
@@ -178,27 +177,6 @@ span:nth-child(6) {
 }
 
 @media screen and (max-width: 375px) {
-.container {
-    width: 100%;
-}
-    
-.searchbar__keyboard {
-    display: none;
-}
-.searchbar__input::placeholder {
-    font-size:small;
-}
- 
-.navbar {
-     margin: 0px;
-}
-     
-.navbar__menu1,
-.navbar__menu2,
-.navbar__menu3,
-.navbar__menu4 {
-    padding-right: 10px;
-}
 
 .searchbar {
     width: 80%;
@@ -207,28 +185,6 @@ span:nth-child(6) {
 
 @media screen and (max-width: 320px) {
         
-.container {
-    width: 100%;
-}
-    
-.searchbar__keyboard {
-    display: none;
-}
-.searchbar__input::placeholder {
-    font-size:small;
-}
- 
-.navbar {
-     margin: 0px;
-}
-     
-.navbar__menu1,
-.navbar__menu2,
-.navbar__menu3,
-.navbar__menu4 {
-    padding-right: 10px;
-}
-
 .searchbar {
     width: 90%;
 }
