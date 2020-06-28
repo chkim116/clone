@@ -100,8 +100,7 @@ span:nth-child(6) {
 }
 
 .searchbar__btn {
-    margin-top:6px;
-    padding-right:7px ;
+    padding:6px;
     color:rgb(117,117,117);
 }
 
