@@ -45,6 +45,10 @@
     cursor:pointer;
 }
 
+.navbar__mobile {
+    display: none;
+}
+
 /* 타이틀 */
 .container {
     width:100%;
@@ -147,6 +151,16 @@ span:nth-child(6) {
 .navbar {
     display: none;
 }
+
+.navbar__mobile {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgba(0,0,0,0.5);
+    padding: 5px;
+}
+
 .searchbar__keyboard {
     display: none;
 }
@@ -196,6 +210,14 @@ span:nth-child(6) {
 
 .navbar {
     display: none;
+}
+.navbar__mobile {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgba(0,0,0,0.5);
+    padding: 5px;
 }
 }
 
