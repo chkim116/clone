@@ -44,12 +44,12 @@
 }
 
 .container {
-    width:1200PX;
+    width:100%;
     margin: 0 auto;
 }
 
  .title {
-     display: block;
+    display: block;
     text-align: center;
     font-size:5rem;
     height: 238px;
