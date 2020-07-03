@@ -10,8 +10,8 @@
     
     * {
         box-sizing: border-box;
-        margin: 0 auto;
         cursor: default;
+        margin: 0 auto;
     }
 
     p,
@@ -73,8 +73,8 @@
     /* 슬라이드 섹션 */
     .section {
         background: url("images/uviyat_navbar.png") no-repeat center/cover;
-        height: 600px;
         width: 100%;
+        height: 600px;
     }
     
     .slidesection {
@@ -93,6 +93,7 @@
 
     .slider__image {
         border-radius: 15px;
+        width: 100%;
     }
 
     .showing {
@@ -103,41 +104,48 @@
 
     #prev {
         position: absolute;
-        top: 40%;
+        top: 45%;
         left: 2%;
         font-size: 30px;
         color:wheat;
     }
     #next {
         position: absolute;
-        top: 40%;
+        top: 45%;
         right: 3%;
         font-size: 30px;
         color:wheat;
     }
 
     /* 판매 */
-    #contents {
-        position: relative;
-        margin: 10px 40px;
+    .contents {
+        display: flex;
         text-align: center;
-        height: 700px;
+        width: 1200px;
+        justify-content: center;
+    }
+
+    .contents__about {
+        margin: 30px 50px;
     }
 
     .contents__image {
-        padding-top: 50px;
-        width: 560px;
+        font-size: 70px;
+        width: 200px;
+        height: 200px;
+        line-height: 180px;
+        border-radius: 50%;
+        border: 1px solid black;
     }
 
-    .contents__image-women,
-    .contents__image-men {
-        width: 100%;
-        border-radius: 10px;
+    .contents__image i:hover {
+        transform: rotate(-10deg) scale(1.1);
+        transition: all 300ms ease-in-out;
+        color: rgb(223,133,157);
     }
 
-    .contents__description {
-        margin-top: 15px;
-        color: rgb(49,49,49);
+    .contents h2 {
+        padding:20px;
     }
 
     .contents__btn {
@@ -151,15 +159,20 @@
         cursor: pointer;
     }
 
+    .contents__btn:hover {
+        background-color: rgb(229,223,217);
+        color: rgb(49,49,49);
+    }
+
     .contents__recommend {
-        top:8%;
+        top:90%;
         right: 3%;
         width: 180px;
         height: 300px;
         position: absolute;
-        background-color: rgb(245,245,245);
         padding: 5px;
         cursor: default;
+        text-align: center;
     }  
 
     
@@ -168,7 +181,7 @@
         height: 100px;
         border: 1px solid black;
         border-radius: 50%;
-        margin: 20px 0;
+        margin: 10px 0;
     }
 
     .contents__recommend-btn {
@@ -181,11 +194,16 @@
     .contents__recommend-btn:visited {
         color:rgb(49,49,49);
     }
+    .contents__recommend-btn i {
+        margin-left: 8px;
+        font-size: 12px
+    }
+
 </style>
 <body>
     <nav id="navbar">
         <div class="uviyat__logo">
-            UVIYAT</div>
+            Think-Container</div>
         <ul class="navbar__menu">
         <li class="navbar__menu-list">New</li>
         <li class="navbar__menu-list">Best</li>
@@ -215,29 +233,30 @@
     </div>
 </section>
 
-<div id="contents">
-    <div class="contents__image"><img src="images/mans_bag.jpg" class="contents__image-men"> </div>
-    <div class="contents__description">
-        <p>남성 가방</p><br>
-    <h2>대학생 남성 가방</h2></div>
-    <button class="contents__btn">자세히 보기</button>
-    <div class="contents__recommend">
-            <img src="images/icon__hearts.png" class="contents__recommend-icon">
-            <h3>남성 가방</h3><br>
-            <p>재생 나일론 패브릭에 선보이는 GC 패턴.</p>
-            <button class="contents__recommend-btn"><a href="#" class="contents__recommend-btn">더 보기</a></button>
+<div class="contents">
+    <div class="contents__about">
+        <div class="contents__image">
+         <i class="fas fa-shopping-bag"></i> 
         </div>
+            <h2>대학생 가방</h2>
+            <button class="contents__btn">자세히 보기</button>
+        </div>
+
+    <div class="contents__about">
+        <div class="contents__image">
+            <i class="fas fa-tshirt"></i>
+        </div>
+           <h2>의류</h2>
+             <button class="contents__btn">자세히 보기</button>
     </div>
-
-</div>
-<div id="contents">
-    <div class="contents__image"><img src="images/women_shopper.jpg" width="640px" height="426" class="contents__image-women"> </div>
-    <div class="contents__description">
-        <p>여성 가방</p><br>
-    <h2>여성 쇼핑 가방</h2></div>
-    <button class="contents__btn">자세히 보기</button>
 </div>
 
+
+<div class="contents__recommend">
+    <img src="images/icon__hearts.png" class="contents__recommend-icon">
+    <h3>Best 10</h3><br>
+    <button class="contents__recommend-btn"><a href="#" class="contents__recommend-btn">VIEW<i class="fas fa-chevron-right"></i></a></button>
+</div>
 
 <script defer src="https://kit.fontawesome.com/66fd1dbf65.js" crossorigin="anonymous">
 </script>
