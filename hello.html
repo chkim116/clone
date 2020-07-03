@@ -24,13 +24,12 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
-        height: 50px;
+        height: 60px;
         align-items: center;
         background: url("images/uviyat_navbar.png") no-repeat center/cover;
     }
 
     .uviyat__logo {
-        margin-left:15px;
         font-size: 1.5rem;   
         font-weight:600;
         cursor: pointer;
@@ -42,9 +41,9 @@
 
     .navbar__menu-list {
         text-align: center;
-        line-height: 50px;
+        line-height: 60px;
         width: 100px;
-        height: 50px;
+        height: 60px;
         list-style: none;
         cursor: pointer;
     }
@@ -71,17 +70,10 @@
         border-radius: 15px;
     }
     /* 슬라이드 섹션 */
-    .section {
-        background: url("images/uviyat_navbar.png") no-repeat center/cover;
-        width: 100%;
-        height: 600px;
-    }
-    
     .slidesection {
-        position: relative; 
-        list-style: none;
+        position: relative;
         z-index: 0;
-        top:7%;
+        padding-top: 10px;
     }
 
     .slider {
@@ -93,7 +85,6 @@
 
     .slider__image {
         border-radius: 15px;
-        width: 100%;
     }
 
     .showing {
@@ -102,20 +93,6 @@
         transform: translateX(0px);
     }   
 
-    #prev {
-        position: absolute;
-        top: 45%;
-        left: 2%;
-        font-size: 30px;
-        color:wheat;
-    }
-    #next {
-        position: absolute;
-        top: 45%;
-        right: 3%;
-        font-size: 30px;
-        color:wheat;
-    }
 
     /* 판매 */
     .contents {
@@ -123,6 +100,8 @@
         text-align: center;
         width: 1200px;
         justify-content: center;
+        position: relative;
+        display: none;
     }
 
     .contents__about {
@@ -165,8 +144,8 @@
     }
 
     .contents__recommend {
-        top:90%;
-        right: 3%;
+        top:5%;
+        right: 0%;
         width: 180px;
         height: 300px;
         position: absolute;
@@ -227,12 +206,9 @@
         <div class="slider"> <img src="images/home2.jpg" width=100% class="slider__image"></div>
         <div class="slider"> <img src="images/home3.jpg" width=100% class="slider__image"></div>
     </div>
-    <div class="slider_btn">
-        <a href="#" id="prev"><i class="fas fa-chevron-left"></i></a>
-        <a href="#" id="next"><i class="fas fa-chevron-right"></i></a>
-    </div>
+ 
 </section>
-
+<div style="height: 35px;"></div>
 <div class="contents">
     <div class="contents__about">
         <div class="contents__image">
@@ -249,15 +225,17 @@
            <h2>의류</h2>
              <button class="contents__btn">자세히 보기</button>
     </div>
-</div>
 
 
 <div class="contents__recommend">
     <img src="images/icon__hearts.png" class="contents__recommend-icon">
     <h3>Best 10</h3><br>
-    <button class="contents__recommend-btn"><a href="#" class="contents__recommend-btn">VIEW<i class="fas fa-chevron-right"></i></a></button>
+    <button class="contents__recommend-btn">
+        <a href="#" class="contents__recommend-btn">VIEW
+            <i class="fas fa-chevron-right"></i></a>
+        </button>
 </div>
-
+</div>
 <script defer src="https://kit.fontawesome.com/66fd1dbf65.js" crossorigin="anonymous">
 </script>
 </body>
